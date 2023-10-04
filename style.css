@@ -139,49 +139,72 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 80vh;
-    border: 1px solid #000;
+    justify-content: center;
+    min-height: 100vh;
+    height: auto;
+}
+
+.section-story h1{
+    font-size: 2.5em;
 }
 
 .section-story .tambah-story{
-    border: 1px solid #000;
-}
-
-.section-story .tambah-story ul{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: center;  
 }
 
-.section-story .tambah-story ul li{
-    margin: 5rem;
-}
-
-
-.tambah-story ul > .bg-img{
-    width: 30vh;
-    height: 45vh;
+.tambah-story .bg-img{
+    min-height: 60vh;
+    width: 40vh;
     background-color: brown;
     border-radius: 1rem;
 }
 
-.tambah-story ul .bg-img > .img{
-    width: 30vh;
-    height: 45vh;
+.tambah-story .bg-img > .img{
     background-image: url('akuwarna.jpeg');
-    background-position: center;
     background-size: cover;
-    transform: rotate(8deg);
+    background-position: center;
     border-radius: 1rem;
-}
-
-.tambah-story ul > .tambah-desk{
-    border: 1px solid #000;
+    transform: rotate(5deg);
+    min-height: 60vh;
     width: 40vh;
-    height: 40vh;
-    text-align: left;
 }
 
+.tambah-story .btn-desk{
+    margin-left: 4em;
+}
+
+.btn-desk .garis{
+    border: none;
+    border-top: 2px solid brown;
+    margin: 1em 0;
+}
+
+.btn-desk p {
+    font-size: 1.3em;
+}
+
+.btn-desk span {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.btn-desk .dalam{
+    color: brown;
+    -webkit-text-stroke: 1px black;
+}
+
+.btn-desk > button {
+    margin: 1rem 0 1rem 0;
+    padding: 1em 2em;
+    border-radius: 0.5rem;
+    background-color: yellow;
+}
+
+.btn-desk button > a{
+    color: #000;
+    font-weight: 800;
+}
 
 
 
