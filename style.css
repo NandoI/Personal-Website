@@ -22,12 +22,13 @@ body {
 }
 
 .section {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .container {
     min-height: 100vh;
     box-shadow:  0 0 10px 0 rgba(0, 0, 0, 1);
+    background-color: #0000;
 }
 
 
@@ -36,7 +37,10 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 6%;
-    font-family: 'Excon', sans-serif;
+}
+
+.container nav > h1{
+    color: brown;
 }
 
 .tambah ul {
@@ -85,6 +89,7 @@ nav{
     font-size: 9rem;
     font-weight: 1000;
     z-index: 0;
+    color: #2b2d42;
 }
 
 .hero h1 > span{
@@ -114,7 +119,7 @@ nav{
     color: #fff;
     background-color: brown;
     padding: 1rem 2rem;
-    font-weight: 800;
+    font-weight: 500;
     border-radius: 1rem;
     transition: box-shadow 0.3s;
 }
@@ -127,7 +132,7 @@ nav{
     background-color: yellow;
     border-radius: 1rem;
     padding: 1rem 2rem;
-    font-weight: 800;
+    font-weight: 500;
     transition: box-shadow 0.3s;
 }
 
@@ -146,6 +151,7 @@ nav{
 
 .section-story h1{
     font-size: 2.5em;
+    color: #2b2d42;
 }
 
 .section-story .tambah-story{
@@ -181,30 +187,62 @@ nav{
 }
 
 .btn-desk p {
-    font-size: 1.3em;
+    font-size: 1.1em;
+    color: #2b2d42;
 }
 
-.btn-desk span {
+.btn-desk .dalam-1 {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 3rem;
+    color: #000;
 }
 
-.btn-desk .dalam{
+.btn-desk .dalam-2{
     color: brown;
-    -webkit-text-stroke: 1px black;
 }
 
 .btn-desk > button {
     margin: 1rem 0 1rem 0;
-    padding: 1em 2em;
+    padding: 1em 3em;
     border-radius: 0.5rem;
-    background-color: yellow;
+    background-color: brown;    
 }
 
 .btn-desk button > a{
-    color: #000;
-    font-weight: 800;
+    color: #fff;
+    margin: 1rem 0 1rem 0;
+    font-weight: 600;
+   
 }
+
+.section-porto{
+    border: 1px solid #000;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-porto h1{
+    color: #2b2d42;
+    font-size: 2.5em;
+}
+
+.section-porto .tambah-section-porto > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.tambah-section-porto  ul > li{
+    border: 1px solid #000;
+    min-width: 30vh;
+    height: 30vh;
+    margin: 4rem;;
+}
+
+
 
 
 
