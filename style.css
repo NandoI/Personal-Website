@@ -25,22 +25,25 @@ body {
     margin-top: 2rem;
 }
 
-.container {
-    min-height: 100vh;
-    box-shadow:  0 0 10px 0 rgba(0, 0, 0, 1);
-    background-color: #0000;
-}
-
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 6%;
-    border: 1px solid #000;
+    position: sticky;
+    z-index: 9999;
+    
 }
 
-.container nav > h1{
+nav.tetap{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav > h1{
     color: brown;
 }
 
@@ -63,12 +66,14 @@ nav{
 
 .hero {
     padding: 1rem 6%;
+    min-height: 100vh;
     color: #000;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items:center;
+    border: 1px solid #000;
 }
 
 .hero p{
@@ -249,6 +254,11 @@ nav{
     margin: 4rem;;
 }
 
+.tambah-section-porto ul li > .img{
+    min-height: 50%;
+    width: auto;
+    border: 1px solid #000;
+}
 
 
 
