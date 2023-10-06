@@ -82,7 +82,7 @@ nav > h1{
 
 .hero > .img {
     position: absolute;
-    background-image: url('WhatsApp\ Image\ 2023-09-30\ at\ 20.44.06.png');
+    background-image: url('WhatsApp\ Image\ 2023-09-30\ at\ 20.44.06.png') ;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -180,6 +180,11 @@ nav > h1{
     transform: rotate(5deg);
     min-height: 60vh;
     width: 40vh;
+    transition: transform 0.3s;
+}
+
+.tambah-story .bg-img > .img:hover{
+    transform: rotate(0deg);
 }
 
 .tambah-story .btn-desk{
@@ -197,9 +202,13 @@ nav > h1{
     color: #2b2d42;
 }
 
+.btn-desk > h4{
+    margin-bottom: 2rem;
+    max-width: 80%;
+}
 .btn-desk .dalam-1 {
-    font-weight: 600;
-    font-size: 3rem;
+    font-weight: 400;
+    font-size: 1.6rem;
     color: #000;
 }
 
@@ -224,6 +233,27 @@ nav > h1{
     margin: 1rem 0 1rem 0;
     font-weight: 600;
    
+}
+
+.btn-desk .sosmed ul{
+    display: flex;
+}
+
+.btn-desk .sosmed ul li{
+    margin-right: 1rem;
+}
+
+.btn-desk .sosmed ul li > a{
+    color: black;
+}
+
+.btn-desk .sosmed ul li a > .besar{
+    font-size: 2em;
+    transition: color 0.3s;
+}
+
+.btn-desk .sosmed ul li a > .besar:hover{
+    color: #FF8C00;
 }
 
 .section-porto{
@@ -251,8 +281,8 @@ nav > h1{
     margin: 4rem;;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 10);
-    border-radius: 1rem;
+    box-shadow: 0px 0.6px 1px rgba(0, 0, 0, 10);
+    border-radius: 0.3rem;
 }
 
 .tambah-section-porto ul .tambah-atas > .img{
@@ -338,6 +368,42 @@ nav > h1{
     background-image: url('porto3.png');
     background-size: cover;
     background-position: center;
+}
+
+.section-porto a > h3{
+    font-weight: 400;
+    padding: 0.4em 2em;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: brown;
+    transition: box-shadow 0.3s animation 0.3s;
+}
+
+.section-porto a > h3:hover{
+    box-shadow:0 0 10px brown;
+    animation: efeklompat 2s infinite;
+}
+
+.section-porto a h3 > span {
+    background-color: #fff;
+    color: #000;
+    padding: 0.1px 4px;
+    border-radius: 2rem;
+    font-weight: 500;
+    font-size:1rem;
+    margin-left: 1rem;
+}
+
+
+
+@keyframes efeklompat{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    } 40% {
+        transform: translateY(-20px);
+    } 60% {
+        transform: translateY(-10px);
+    }
 }
 
 
