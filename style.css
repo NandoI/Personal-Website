@@ -193,8 +193,8 @@ nav > h1{
 }
 
 .tambah-story .bg-img{
-    min-height: 60vh;
-    width: 40vh;
+    min-height: 80vh;
+    width: 50vh;
     background-color: brown;
     border-radius: 1rem;
 }
@@ -205,8 +205,8 @@ nav > h1{
     background-position: center;
     border-radius: 1rem;
     transform: rotate(5deg);
-    min-height: 60vh;
-    width: 40vh;
+    min-height: 80vh;
+    width: 50vh;
     transition: transform 0.3s;
 }
 
@@ -280,7 +280,7 @@ nav > h1{
 }
 
 .btn-desk .sosmed ul li a > .besar:hover{
-    color: #FF8C00;
+    color: brown;
 }
 
 .section-porto{
@@ -408,7 +408,7 @@ nav > h1{
 
 .section-porto a > h3:hover{
     box-shadow:0 0 10px brown;
-    animation: efeklompat 2s infinite;
+    animation: efeklompat 1.5s infinite;
 }
 
 .container-fot{

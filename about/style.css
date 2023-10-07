@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-nav{
+    display: flex;
+    border: 1px solid #000;
+    justify-content: space-between;
+    padding: 1rem 6%;
+    position: sticky;
+    z-index: 9999;
+    align-items: center;
+}
+
+.container-nav.tetap{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container-nav h1{
+    color: brown;
+}
+
+.container-nav .tambah ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-nav .tambah ul > li{
+    margin-left: 2rem;
+}
+
+.container-nav .tambah ul li > a{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.container-nav .tambah ul li > a:hover{
+    color: brown;
+}
+
+.container-nav .tambah ul li > a::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: brown;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s;
+}
+
+.container-nav .tambah ul li > a:hover::before{
+    transform: scaleX(1);
+    transform-origin: left;
+    background-color: brown;
+}
+
+.sect-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90vh;
+    padding: 1rem 6%;
+}
+
+.sect-about .bg-img{
+    background-color: brown;
+    min-height: 70vh;
+    width: 40vh;
+    border-radius: 1rem;
+}
+
+.sect-about .bg-img > .img{
+    background-image: url('/akuwarna.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    width: 40vh;
+    transform: rotate(5deg);
+    border-radius: 1rem;
+    transition: transform 0.3s;
+}
+
+.sect-about .bg-img > .img:hover{
+    transform: rotate(0deg);
+}
+
+
+
