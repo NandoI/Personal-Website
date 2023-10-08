@@ -201,6 +201,24 @@ section{
     background-position: center;
 }
 
+.tambah-section-porto ul .empat{
+    background-image: url('porto1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.tambah-section-porto ul .lima{
+    background-image: url('porto2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.tambah-section-porto ul .enam{
+    background-image: url('porto3.png');
+    background-size: cover;
+    background-position: center;
+}
+
 .container-porto a > h3{
     font-weight: 400;
     padding: 0.4em 2em;
