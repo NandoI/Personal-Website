@@ -21,10 +21,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-section{
-    margin-top: 2rem;
-}
-
 .container-nav{
     display: flex;
     justify-content: space-between;
@@ -87,10 +83,59 @@ section{
 }
 
 
+.container-blog{
+    min-height: 100vh;
+    padding: 1rem 6%;
+    display: flex;
+    align-items: center;
+}
+
+
+.container-blog ul li {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 50vh;
+    height: 60vh;
+    padding: 2rem 2rem;
+    transition: box-shadow 0.3s;
+}
+
+.container-blog ul li:hover{
+    box-shadow: 0 10px 10px rgba(100, 0, 0, 10);
+}
+
+.container-blog ul li > .img{
+ background-image: url('bela.jpg');
+ background-size: cover;
+ background-position: center;
+ min-width: 30vh;
+ height: 30vh;
+}
+
+.container-blog ul li > p{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container-blog a > p{
+    padding: 0.4rem 1rem;
+    max-width: 44%;
+    color: #fff;
+    background-color: brown;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container-blog a > p:hover{
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+
+
 .container-fot{
     min-height: 50vh;
     background-color: brown;
-    margin-top: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;

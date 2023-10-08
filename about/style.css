@@ -151,6 +151,13 @@ section{
     animation: lompat 1.3s infinite;
 }
 
+.sect-about .scroll > h4{
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: brown;
+}
+
 .sect-skill {
     min-height: 100vh;
     display: flex;
@@ -212,7 +219,6 @@ section{
 .container-fot{
     min-height: 50vh;
     background-color: brown;
-    margin-top: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;

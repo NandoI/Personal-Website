@@ -308,8 +308,13 @@ nav > h1{
     margin: 4rem;;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0.6px 1px rgba(0, 0, 0, 10);
+    box-shadow: 0px 0.6px 1px rgba(100, 0, 0, 10);
     border-radius: 0.3rem;
+    transition: box-shadow 0.3s;
+}
+
+.tambah-section-porto ul > .tambah-atas:hover{
+    box-shadow: 0px 10px 10px rgba(100, 0, 0, 10);
 }
 
 .tambah-section-porto ul .tambah-atas > .img{
