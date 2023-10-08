@@ -19,7 +19,6 @@ body {
     background-color: #fff;
     color: #000;
     font-family: 'Poppins', sans-serif;
-    min-height: 999vh;
 }
 
 section{
@@ -154,7 +153,6 @@ section{
 
 .sect-skill {
     min-height: 100vh;
-    border: 1px solid #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -168,7 +166,6 @@ section{
     align-items: center;
     max-width: 100vh;
     height: 50vh;
-    border: 1px solid;
 }
 
 .sect-skill .dal-skill ul > li {
@@ -179,16 +176,105 @@ section{
     margin-left: 3rem;
     min-width: 20vh;
     height: 20vh;
-    border: 1px solid #000;
     margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(100, 0, 0, 0.4);
 }
 
 .sect-skill .dal-skill ul li > .dal-sect-sk {
     font-size: 2rem;
     padding: 0.5em;
-    border: 1px solid #000;
-    border-radius: 3rem;
 }
+
+.sect-skill .dal-skill ul li > #php{
+    color: darkslateblue;
+}
+.sect-skill .dal-skill ul li > #html{
+    color: indianred;
+}
+.sect-skill .dal-skill ul li > #css{
+    color: #00b4d8;
+}
+
+.sect-skill .dal-skill ul li > #js{
+    color: yellow;
+}
+.sect-skill .dal-skill ul li > #python{
+    color: blue;
+}
+.sect-skill .dal-skill ul li > #mysql{
+    color: green;
+}
+
+.sect-skill h2 > span{
+    color: brown;
+}
+
+.container-fot{
+    min-height: 50vh;
+    background-color: brown;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.container-fot ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fot ul li{
+    margin: 1rem;
+}
+
+.container-fot ul li > a{
+    color:#fff;
+}
+
+.container-fot .sosmed li a > .besar{
+    color: brown;
+    background-color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    transition: color 0.3s, background-color 0.3s,border 0.3s,border-radius 0.3s;
+}
+
+.container-fot .sosmed li a > .besar:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 2rem;
+}
+
+.container-fot .tambah-fot .Nav-fot li > a{
+    position: relative;
+}
+
+.container-fot .tambah-fot .Nav-fot li > a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.container-fot .tambah-fot .Nav-fot li > a:hover::before{
+    transform: scaleX(1);
+    transform-origin: left;
+    background-color: #fff;
+}
+
+
+
 
 @keyframes lompat{
     0%, 20%, 50%, 80%, 100%{
