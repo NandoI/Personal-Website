@@ -129,7 +129,7 @@ section{
 }
 
 .tambah-section-porto ul .satu{
-    background-image: url('/porto1.png');
+    background-image: url('../porto1.png');
     background-size: cover;
     background-position: center;
 }
@@ -196,13 +196,13 @@ section{
 
 
 .tambah-section-porto ul .dua{
-    background-image: url('/porto2.png');
+    background-image: url('../porto2.png');
     background-size: cover;
     background-position: center;
 }
 
 .tambah-section-porto ul .tiga{
-    background-image: url('/porto3.png');
+    background-image: url('../porto3.png');
     background-size: cover;
     background-position: center;
 }
@@ -221,6 +221,18 @@ section{
 
 .tambah-section-porto ul .enam{
     background-image: url('porto3.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.tambah-section-porto ul .tuju{
+    background-image: url('porto4.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.tambah-section-porto ul .delapan{
+    background-image: url('porto5.png');
     background-size: cover;
     background-position: center;
 }
